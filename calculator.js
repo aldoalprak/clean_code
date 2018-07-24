@@ -20,6 +20,10 @@ class Calculator {
     this.total += num
     return this
   }
+  add (num) {
+    this.total += num
+    return this
+  }
   substract (num) {
     this.total -= num
     return this
